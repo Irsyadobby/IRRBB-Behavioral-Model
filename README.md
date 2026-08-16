@@ -38,12 +38,7 @@ structural shocks in the observation window (e.g., COVID-19 period), preventing 
 events from biasing the estimated macro-sensitivity coefficients.
 
 ## End-to-End Workflow
-```
-mermaid
----
-config:
-  theme: default
----
+```mermaid
 flowchart TD
     A[("Raw Data: Y Behavioral Rate Series, X Macro Indicator Pool")]:::data --> FE
 
