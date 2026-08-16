@@ -1,0 +1,41 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+build/
+dist/
+
+# --- Virtual environments ---
+.venv/
+venv/
+env/
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+
+# --- Data (never commit real/proprietary data) ---
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+*.csv
+*.xlsx
+*.xls
+*.parquet
+
+# --- Model / analysis outputs (regenerable, keep repo lightweight) ---
+outputs/**/*.png
+outputs/**/*.jpg
+outputs/**/*.svg
+outputs/**/*.pkl
+outputs/**/*.joblib
+
+# --- OS / Editor ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# --- Environment / secrets ---
+.env
